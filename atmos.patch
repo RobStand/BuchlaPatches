@@ -2,7 +2,7 @@
 VOICE 1:
     - 223e (S up) >> 256e (A1 in) // row B
     - 223e (S right) >> 256e (A2 in) // row B
-    - 223e (Puls 5) t> 268e (Steady in)
+    - 223e (Pulse 5) t> 268e (Steady in)
     - 250e (CV 1 out) p> 244 (Quant 1 in)
     - 244 (Quant 1 out) p> 268e (cv in)
     - 256e (Out B) >> 268e (external)
