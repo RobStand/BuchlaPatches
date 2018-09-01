@@ -3,8 +3,6 @@ VOICE 1:
     - 223e (S up) >> 256e (A1 in) // row B
     - 223e (S right) >> 256e (A2 in) // row B
     - 223e (Pulse 5) t> 268e (Steady in)
-    - 250e (CV 1 out) p> 244 (Quant 1 in)
-    - 244 (Quant 1 out) p> 268e (cv in)
     - 256e (Out B) >> 268e (external)
     - 256e (Out B) >> 268e (tape speed)
     - 268e (signal 1) -> 297 (signal in)
@@ -12,5 +10,5 @@ VOICE 1:
     - 297 (signal out 2) -> 292e (sig in B)
     - 292e (signal out 1) -> 227e (sig in 1) // could route to H9
     - 292e (signal out 2) -> 227e (sig in 2) // could route to H9
-    
+
 

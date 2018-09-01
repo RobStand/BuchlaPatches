@@ -1,0 +1,17 @@
+// tune 261e to C3 for upper octave
+// use radio 6 on 223e
+VOICE 1:
+    - 223e (CV) >> 244 (Quant 1 in)
+    - 244 (Quant 1 out) p> 261e (CV in)
+    - 223e (Pulse) t> 281e (Pulse in) // row 1
+
+// tune 259e to C0 for lower octave
+// use radio 6 on 223e
+VOICE 2:
+    - 223e (CV) >> 244 (Quant 1 in)
+    - 244 (Quant 1 out) p> 259e (CV in)
+    - 223e (Pulse) t> 281e (Pulse in) // row 2
+
+// G strike
+VOICE 3:
+    - 
