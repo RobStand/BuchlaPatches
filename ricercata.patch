@@ -1,17 +1,20 @@
-// tune 261e to C3 for upper octave
-// use radio 6 on 223e
+// Musica Ricercata, II. Gyorgy Ligeti
+
+// Tune waveform generator to F1
 VOICE 1:
-    - 223e (CV) >> 244 (Quant 1 in)
-    - 244 (Quant 1 out) p> 261e (CV in)
-    - 223e (Pulse) t> 281e (Pulse in) // row 1
+    - 223e (CV 9 Out) p> 261e (CV In) // Radio 9
+    - 223 (Pulse 9 Out) t> 281e (Pulse A In)
+    - 281e (CV A Out) >> 292e (CV A In)
+    - 261e (Principal out) -> 292e (Sig in A)
+    - 292e (Sig out A) -> 227e (Sig in 1)
+    - 223e (Loc 9 Out) >> 261e (Timbre)
+ 
 
-// tune 259e to C0 for lower octave
-// use radio 6 on 223e
+// Tune waveform generator to F3
 VOICE 2:
-    - 223e (CV) >> 244 (Quant 1 in)
-    - 244 (Quant 1 out) p> 259e (CV in)
-    - 223e (Pulse) t> 281e (Pulse in) // row 2
-
-// G strike
-VOICE 3:
-    - 
+    - 223 (CV 8 Out) p> 259e (CV in)
+    - 223 (Pulse 8 Out) t> 281e (Pulse B in)
+    - 281 (CV B Out) >> 292e (CV B In)
+    - 259e (Prin out) -> 292e (Sig in B)
+    - 292e (Sig out B) -> 227e (Sig in 2)
+    - 223e (Loc 8 Out) >> 259e (Timbre)
