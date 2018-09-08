@@ -2,10 +2,37 @@
 // 285e top section
 VOICE 1:
     - 259e (Mod out) p> 259e (CV in)
-    - 259e (Mod out) a> 259e (Skew in)
+    - 259e (Mod out) -> 259e (Skew in)
     - 259e (Principal out) a> 285e (signal)
-    - 285e (down) a> 227e (Sub D)
-    - 285e (up) a> 227e (Sub C)
+    - 285e (down) -> 227e (Sub D)
+    - 285e (up) -> 227e (Sub C)
+    - 227e (Sub out) -> 227e (sig in 3)
     - 281e (CV Out D) >> 256e (CV In A)
     - 256e (CV Out A) >> 285e (freq)
-    - 261e (Mod sine) a> 285e (fm in)
+    - 261e (Mod sine) -> 285e (fm in)
+
+// 261e
+// 223e radio 9
+VOICE 2:
+    - 251e (CV Out A) p> 261e (Principal CV)
+    - 251e (CV Out B) p> 261e (Mod CV)
+    - 251e (Pulse Out A) t> 281e (Pulse in A)
+    - 251e (Pulse Out B) t> 281e (Pulse in B)
+    - 261e (Mod out) -> 292e (signal in b)
+    - 261e (Principal out) -> 297 (signal in)
+    - 297 (01) -> 292e (signal in a)
+    - 297 (02) -> 292e (signal in c)
+    - 292e (signal out a) -> 227e (sig in 1)
+    - 223e (pulse 5) t> 251e (start a)
+    - 251e (start a) t> 251e (start b)
+    - 223e (CV 2) >> 261e (timbre in)
+
+// 268e
+VOICE 3:
+    - 268e (sig all) -> 291e (sig in A)
+    - 291e (sig out A) -> 292e (sig in D)
+    - 292e (sig out d) -> 227e (sig in 4)
+    - 266e (Fluct A) >> 268e (tape speed in)
+    - 266e (Fluct B) >> 268e (external in)
+    - 223 (S horiz) >> 291e (freq)
+
