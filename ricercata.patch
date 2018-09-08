@@ -15,6 +15,7 @@ VOICE 2:
     - 223 (CV 8 Out) p> 259e (CV in)
     - 223 (Pulse 8 Out) t> 281e (Pulse B in)
     - 281 (CV B Out) >> 292e (CV B In)
-    - 259e (Prin out) -> 292e (Sig in B)
+    - 259e (Principal out) -> 292e (Sig in B)
     - 292e (Sig out B) -> 227e (Sig in 2)
     - 223e (Loc 8 Out) >> 259e (Timbre)
+    - 223e (S Up) >> 281e (Decay B) // for that upper G hit
