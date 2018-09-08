@@ -1,0 +1,11 @@
+// 259e
+// 285e top section
+VOICE 1:
+    - 259e (Mod out) p> 259e (CV in)
+    - 259e (Mod out) a> 259e (Skew in)
+    - 259e (Principal out) a> 285e (signal)
+    - 285e (down) a> 227e (Sub D)
+    - 285e (up) a> 227e (Sub C)
+    - 281e (CV Out D) >> 256e (CV In A)
+    - 256e (CV Out A) >> 285e (freq)
+    - 261e (Mod sine) a> 285e (fm in)
