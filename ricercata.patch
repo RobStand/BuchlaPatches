@@ -3,7 +3,7 @@
 // Tune waveform generator to F1
 VOICE 1:
     - 223e (CV 9 Out) p> 261e (CV In) // Radio 9
-    - 223 (Pulse 9 Out) t> 281e (Pulse A In)
+    - 223e (Pulse 9 Out) t> 281e (Pulse A In)
     - 281e (CV A Out) >> 292e (CV A In)
     - 261e (Principal out) -> 292e (Sig in A)
     - 292e (Sig out A) -> 227e (Sig in 1)
@@ -12,9 +12,9 @@ VOICE 1:
 
 // Tune waveform generator to F3
 VOICE 2:
-    - 223 (CV 8 Out) p> 259e (CV in)
-    - 223 (Pulse 8 Out) t> 281e (Pulse B in)
-    - 281 (CV B Out) >> 292e (CV B In)
+    - 223e (CV 8 Out) p> 259e (CV in)
+    - 223e (Pulse 8 Out) t> 281e (Pulse B in)
+    - 281e (CV B Out) >> 292e (CV B In)
     - 259e (Principal out) -> 292e (Sig in B)
     - 292e (Sig out B) -> 227e (Sig in 2)
     - 223e (Loc 8 Out) >> 259e (Timbre)
