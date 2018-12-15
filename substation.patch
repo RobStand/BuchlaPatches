@@ -1,18 +1,18 @@
 // 268e
 VOICE 1:
     - 223e (CV 9 out) p> 210e (CV A In)
-    - 210e (CV 1 out) >> 268e (CV 1 In)
-    - 210e (CV 1 out) >> 268e (CV 2 In)
-    - 210e (CV 2 out) >> 268e (CV 3 In)
-    - 210e (CV 2 out) >> 268e (CV 4 In)
+    - 210e (CV 1 out) p> 268e (CV 1 In)
+    - 210e (CV 1 out) p> 268e (CV 2 In)
+    - 210e (CV 2 out) p> 268e (CV 3 In)
+    - 210e (CV 2 out) p> 268e (CV 4 In)
     - 282e (CV A) >> 268e (Mod 1) 
     - 282e (CV B) >> 268e (Mod 2)
     - 282e (CV C) >> 268e (Mod 3)
     - 282e (CV D) >> 268e (Mod 4)
-    - 268e (Sig 1) >> 210e (Sig A)
-    - 268e (Sig 2) >> 210e (Sig B)
-    - 268e (Sig 3) >> 227e (Sub C)
-    - 268e (Sig 4) >> 210e (Sig C)
+    - 268e (Sig 1) -> 210e (Sig A)
+    - 268e (Sig 2) -> 210e (Sig B)
+    - 268e (Sig 3) -> 227e (Sub C)
+    - 268e (Sig 4) -> 210e (Sig C)
     - 223e (R Right) >> 260e (Speed CV)
 
 // 259e
@@ -25,12 +25,12 @@ VOICE 2:
 VOICE 3: 
     - 223e (CV 9) p> 261e (Prin CV In)
     - 261e (Prin Out) >> 292e (Sig A)
-    - 256e (Out D) >> 261e (Tamber In)
+    - 256e (Out D) >> 261e (Timbre In)
 
 // 258e
 VOICE 4:
     - 251e (D CV) >> 258e (B In)
-    - 251e (D Pulse) > 281e (B Pulse)
+    - 251e (D Pulse) t> 281e (B Pulse In)
     - 258e (B Sig 2) >> 285e (Bal FM)
     - 258e (B Sig 1) >> 210e (Sig H)
     - 258e (A Sig 1) >> 285e (Freq FM)
@@ -39,7 +39,7 @@ MODULATION:
     - 223e (Loc 9) >> 292e (Vel D)
     - 223e (S UP) >> 292e (Vel B) 
     - 223e (S Right) >> 292e (Vel C)
-    - 223e (Pulse 9) >> 282e (Pulse D)
+    - 223e (Pulse 9) t> 282e (Pulse D)
     - 282e (CV A) >> 297 (Freq)
     - 282e (CV A) >> 210e (CV G)
     - 282e (CV D) >> 210e (CV H)
@@ -50,7 +50,7 @@ MODULATION:
     - 210e (CV 4) >> 256e (D 2) 
     - 210e (CV 5) >> 256e (D 1)
     - 210e (CV 4) >> 285e (Ring Freq) 
-    - 210e (CV 5) >> 285e (Ring Tamber)
+    - 210e (CV 5) >> 285e (Ring Timbre)
     - 285e (Sig Ring) >> 227e (Sub B) 
     
 // 210e 
@@ -62,7 +62,7 @@ AUDIO:
     - 292e (Out A) >> 210e (Sig F)
     - 292e (Sig Out C) >> 285e (Shift Signal)
     - 292e (Sig Out B) >> Re201 (In) 
-    - 292e (Sig Out D) >> Mixer 1
+    - 292e (Sig Out D) >> Mixer 1 (In)
     - 291e (Sig out A) >> 227 (Sub D)
     - 297 (Sig out 2) >> 227e (Sub A) 
     - 227e (Sub Out) >> 292e (Sig In D)
